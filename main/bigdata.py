@@ -34,7 +34,7 @@ def chunks(l, n):
     return [l[i:i+n] for i in range(0, len(l), n)]
 
 while 1:
-    size = 
+    size = 19
     break
     
         
@@ -303,7 +303,6 @@ def writingfile(input):
     
     
 writingfile('a.html')   
-# all this is based off before, just the same code copy and pasted
 with open("b.txt", 'r', encoding = 'utf-8') as file:
     lines = file.readlines()
     holder = []
